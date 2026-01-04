@@ -1,0 +1,17 @@
+spring:
+  ai:
+    mcp:
+      server:
+        type: SYNC
+        stdio: true
+        name: account-manager-mcp-server
+        version: 1.0.0
+  data:
+    mongo:
+      uri: mongodb://localhost:27017/account-info
+  main:
+    web-application-type: none
+    banner-mode: off
+logging:
+  pattern:
+    console:
